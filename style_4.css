@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.logo{
+    border: 2px solid white;
+    border-radius: 180px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 750px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+.text_link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    flex-direction: row;
+}
+
+.header_back{
+    padding-top: 124px;
+    height: 100vh;
+    background: black url(img/honda-nsx-2019-06_04_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 75px;
+}
+
+.header_inner{
+    align-items: center;
+    display: flex;
+}
+
+.nav {
+    font-weight: 500;
+}
+
+.nav_link {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    margin-left: 75px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.2s linear;
+}
+
+.nav_link:first-child {
+    margin-left: 0px;
+}
+
+.nav_link:hover {
+    color: #f60300;
+    border-bottom: 2px solid #f60300;
+}
+
+.navigation{
+    font-size: 20px;
+}
+
+
+.content{
+    width: 100%;
+    max-width: 1208px;
+    min-width: 604px;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.content1{
+    width: 100%;
+    max-width: 1208px;
+    min-width: 604px;
+    margin: 0 auto;
+    height: 480px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.content2{
+    width: 100%;
+    max-width: 1208px;
+    min-width: 604px;
+    margin: 0 auto;
+    height: 450px;
+    margin-top: 60px;
+    display: flex;
+}
+
+
+.cont1_short{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 524px;
+    margin: 0;
+    /*border: 1px solid black;*/
+    height: 400px;
+}
+
+.cont1_short1{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 520px;
+    margin: 0;
+    /*border: 1px solid black;*/
+    height: 480px;
+}
+
+.cont1_long{
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+    background-color: red;
+    height: 400px;
+    background-image: url(img/Honda-Motor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont1_long1{
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    background-color: red;
+    height: 450px;
+    background-image: url(img/754788652383360.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cont2_long{
+    width: 100%;
+    max-width: 650px;
+    margin: 0;
+    background-color: red;
+    height: 400px;
+    background-image: url(img/honda-factory-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*border: 1px solid black;*/
+}
+
+.cont2_long1{
+    width: 100%;
+    max-width: 750px;
+    margin: 0;
+    background-color: red;
+    height: 480px;
+    background-image: url(img/929d7f0deda5c8dbd65d6e364ce84708.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*border: 1px solid black;*/
+}
+
+.cont2_short{
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 674px;
+    margin: 0;
+    /*border: 1px solid black;*/
+    height: 400px;
+}
+
+.cont2_short1{
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    /*border: 1px solid black;*/
+    height: 450px;
+}
+
+.transitional{
+    height: 600px;
+    width: 100%;
+    background: black url(img/honda-fit-hr-v-civic-hatchback-cr-v-avto-derevia-priroda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0px 10px;
+}
+
+.cont_transit{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.footer{
+    max-width: 1208px;
+    margin: 0 auto;
+    height: 3.5vh;
+    position: absolute;
+    margin-left: 17.5%;
+    bottom: 0;
+}
+
+.footer2{
+    width: 100%;
+    margin: 0;
+    height: 65px;
+    bottom: 0;
+    background-color: #1a1a1a;
+}
+
+.footer2_inner{
+    width: 100%;
+    max-width: 1208px;
+    margin: 0;
+    height: 65px;
+    bottom: 0;
+    background-color: #1a1a1a;
+    margin: 0 auto;
+    padding-top: 25px;
+    display: flex;
+}
+
+.footer2_inner1{
+    width: 50%;
+    margin: 0;
+    height: 40px;
+    text-align: left;
+}
+
+.footer2_inner2{
+    width: 50%;
+    margin: 0;
+    height: 40px;
+    text-align: right;
+}
+
+.void1{
+    width: 100%;
+    height: 70px;
+}
+
+.void2{
+    width: 100%;
+    height: 15px;
+}
+
+.text_main1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    color: black;
+    font-weight: 800;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text_title1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+}
+
+.text_title2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    color: white;
+    font-weight: 800;
+}
+
+.text_title2_2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    color: white;
+    font-weight: 800;
+}
+
+.text_title3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: lightgray;
+    font-weight: 100;
+}
+
+.text_footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: lightgray;
+    font-weight: 100; 
+}
+
+.text_footer2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+}
+
+.text_cont1{
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+}
+
+.text_transit{
+    text-align: center;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+}
+
+.red{
+    color: #f60300;
+}
+
+.bold{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}

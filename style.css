@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.logo{
+    border: 2px solid white;
+    border-radius: 180px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 750px;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.text_link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+
+    flex-direction: row;
+}
+
+.header_logo{
+    margin-top: 10px;
+    padding-right: 75px;
+    margin-bottom: 10px;
+}
+
+.header_inner{
+    align-items: center;
+    display: flex;
+}
+
+.nav {
+    font-weight: 500;
+}
+
+.nav_link {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    margin-left: 75px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.2s linear;
+}
+
+.nav_link:first-child {
+    margin-left: 0px;
+}
+
+.nav_link:hover {
+    color: #f60300;
+    border-bottom: 2px solid #f60300;
+}
+
+.header_back{
+    padding-top: 124px;
+    height: 100vh;
+    background: black url(img/nissan-skyline-c110-rear222211.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    font-size: 20px;
+}
+
+.title_inner{
+    height: 900px;
+    margin: 0 auto;
+}
+
+.footer{
+    max-width: 1208px;
+    margin: 0 auto;
+    height: 3.5vh;
+    position: absolute;
+    margin-left: 17.5%;
+    bottom: 0;
+}
+
+.void1{
+    width: 100%;
+    height: 12vh;
+}
+
+.void2{
+    width: 100%;
+    height: 5vh;
+}
+
+.text_main1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    color: black;
+    font-weight: 800;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text_title1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+}
+
+.text_title2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    color: white;
+    font-weight: 800;
+}
+
+.text_title3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: lightgray;
+    font-weight: 100;
+}
+
+.text_footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: lightgray;
+    font-weight: 100; 
+}
+
+.red{
+    color: #f60300;
+}
