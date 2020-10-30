@@ -23,7 +23,7 @@ body{
     width: 100%;
     max-width: 750px;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 15px;
     border-radius: 15px;
 }
@@ -308,7 +308,7 @@ body{
 .text_title3{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    color: lightgray;
+    color: white;
     font-weight: 100;
 }
 
